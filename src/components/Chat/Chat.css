@@ -1,0 +1,22 @@
+.message-right {
+  text-align: right;
+  background-color: rgb(10, 156, 214);
+  padding: 10px 10px;
+  width: 50%;
+  margin-left: auto;
+  border-radius: 5px;
+}
+.message-left {
+  text-align: left;
+  background-color: rgb(10, 156, 214);
+  padding: 10px 10px;
+  width: 50%;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.wrapper-message {
+  background-color: rgb(192, 186, 186);
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
