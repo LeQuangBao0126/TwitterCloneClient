@@ -7,13 +7,14 @@ import {
   MediaPoster,
 } from "@vidstack/react";
 export default function Video() {
+  const url = import.meta.env.VITE_API_URL;
   return (
     <div>
       <div style={{ maxWidth: "1200px" }}>
         <h2>Video streaming</h2>
         <MediaPlayer
           title="Phim test"
-          src="http://localhost:4000/static/video-hls/Lh2NccN/master.m3u8"
+          src={`${url}/static/video-hls/Lh2NccN/master.m3u8`}
           aspectRatio={16 / 9}
           crossorigin=""
         >
